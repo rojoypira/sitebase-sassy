@@ -1,0 +1,73 @@
+/* BODY */
+
+body {
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: $body-fontfamily;
+}
+
+/* HEADINGS */
+
+h1, h2, h3{
+    margin: 0.2em 0;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 4.5em;
+    line-height: 1;
+}
+
+h2{
+    font-size: 2em;
+    line-height: 1.1;
+}
+
+h3{
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+/* PARAGRAPHS */
+
+p {
+    max-width: 35em;
+    font-family: 'Avenir', sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+/* TYPE SPECIMEN */
+
+.mainhead{
+    font-family: 'Didot', serif;
+    color: indianred;
+    font-size: 58pt;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0;
+    line-height: 1.1;
+}
+
+.subhead{
+    font-family: 'Avenir', sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+    text-transform: uppercase;
+    opacity: .3;
+}
+
+blockquote {
+    max-width: 15em;
+    font-family: 'Didot', serif;
+    font-style: oblique;
+    font-size: 14pt;
+    color: indianred;
+  }
+  
+  time{
+    font-family: 'Avenir', sans serif;
+    font-size: 9pt;
+    font-weight: bold;
+  }
